@@ -1,38 +1,30 @@
-# Simple Carousel Component
+# Shoe Store
 
-A lightweight, responsive image carousel built with HTML, CSS, and vanilla JavaScript.
+A simple, responsive online store website for shoes, clothing, and accessories.
 
-**Live demo:** [https://mikoczanmx.github.io/simple-carousel/](https://mikoczanmx.github.io/simple-carousel/)
+## Live Demo
+
+[View the live demo](https://example.com/live-demo)
+
+## Carousel
+
+The carousel component is based on an external GitHub repository:
+[Carousel component repository](https://github.com/mikoczanmx/simple-carousel)
 
 ## Features
 
-- Animated slide transitions using CSS transforms.
-- Previous and next navigation buttons.
-- Clickable dots with an active-slide indicator.
-- Automatic slide changes every four seconds.
-- Autoplay pauses while the pointer is over the carousel.
-- Responsive layout and keyboard focus indicators.
+- Responsive header and navigation
+- Image carousel
+- Category cards
+- Product list with category tabs, including an all-products view
+- Responsive layout for mobile devices
 
-## Usage
+## Getting Started
 
-Open `index.html` in a browser, or serve the project using any static web server. No build step or package installation is required.
+Open `index.html` in a web browser. No dependencies need to be installed.
 
-## Project files
+## Technologies
 
-- `index.html` — carousel markup and slide content.
-- `style.css` — layout, colors, hover states, and transition animation.
-- `app.js` — slide navigation, dot state, and autoplay behavior.
-
-## Customization
-
-### Add or replace slides
-
-Add or replace an `<img class="slide">` element inside `.slide-track` in `index.html`. Add a matching `.dot` button inside `.dots` for each slide. The slide and dot counts should match.
-
-### Change autoplay interval
-
-Update `autoplayDelay` in `app.js`. The value is in milliseconds; the default is `4000` (four seconds).
-
-### Change transition
-
-Adjust the `transition` property on `.slide-track` in `style.css` to change the animation duration or easing.
+- HTML
+- CSS
+- JavaScript
