@@ -4,7 +4,7 @@ A simple, responsive online store website for shoes, clothing, and accessories.
 
 ## Live Demo
 
-[View the live demo](https://example.com/live-demo)
+[View the live demo](https://mikoczanmx.github.io/streetwear-shop/)
 
 ## Carousel
 
