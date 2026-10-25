@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Simple Carousel Component</h1>
+    <div class="carousel" role="region" aria-label="Karuzela zdjęć">
+      <div class="content">
+        <button class="prev" type="button" aria-label="Poprzedni slajd">
+          <svg
+            clip-rule="evenodd"
+            fill-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13.789 7.155c.141-.108.3-.157.456-.157.389 0 .755.306.755.749v8.501c0 .445-.367.75-.755.75-.157 0-.316-.05-.457-.159-1.554-1.203-4.199-3.252-5.498-4.258-.184-.142-.29-.36-.29-.592 0-.23.107-.449.291-.591 1.299-1.002 3.945-3.044 5.498-4.243z"
+            />
+          </svg>
+        </button>
+        <div class="slides">
+          <div class="slide-track">
+            <img
+              src="https://picsum.photos/id/237/750/450"
+              alt="Slajd 1"
+              class="slide"
+            />
+            <img
+              src="https://picsum.photos/id/238/750/450"
+              alt="Slajd 2"
+              class="slide"
+            />
+            <img
+              src="https://picsum.photos/id/230/750/450"
+              alt="Slajd 3"
+              class="slide"
+            />
+            <img
+              src="https://picsum.photos/id/240/750/450"
+              alt="Slajd 4"
+              class="slide"
+            />
+          </div>
+        </div>
+        <button class="next" type="button" aria-label="Następny slajd">
+          <svg
+            clip-rule="evenodd"
+            fill-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m10.211 7.155c-.141-.108-.3-.157-.456-.157-.389 0-.755.306-.755.749v8.501c0 .445.367.75.755.75.157 0 .316-.05.457-.159 1.554-1.203 4.199-3.252 5.498-4.258.184-.142.29-.36.29-.592 0-.23-.107-.449-.291-.591-1.299-1.002-3.945-3.044-5.498-4.243z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="dots" role="group" aria-label="Wybierz slajd">
+        <button class="dot" type="button" aria-label="Slajd 1">&#9679;</button>
+        <button class="dot" type="button" aria-label="Slajd 2">&#9679;</button>
+        <button class="dot" type="button" aria-label="Slajd 3">&#9679;</button>
+        <button class="dot" type="button" aria-label="Slajd 4">&#9679;</button>
+      </div>
+    </div>
+  </body>
+</html>
